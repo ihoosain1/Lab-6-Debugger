@@ -1,3 +1,4 @@
+# This was an interesting project.
 def arr_to_string(data):
     answer = ""
     for x in data:
