@@ -27,6 +27,15 @@ def decoder(y):
         answer.append(i)
     return answer
 
+
+# def decoder(encoded_password):
+    #password = ""
+    #for digit in encoded_password:
+        #shifted_digit = str((int(digit) - 3) % 10)  # shift each digit down by 3 numbers
+        #password += shifted_digit
+    #return password
+
+
 is_running = True
 menuselection = ''
 encoded_answer = []
